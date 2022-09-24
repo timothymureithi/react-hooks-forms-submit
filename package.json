@@ -1,4 +1,4 @@
-{
+{    
   "name": "react-hooks-forms-submit",
   "version": "0.1.0",
   "private": true,
@@ -8,7 +8,8 @@
     "react-scripts": "4.0.1"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build"
   },
   "eslintConfig": {
     "extends": [
